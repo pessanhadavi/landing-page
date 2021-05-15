@@ -1,0 +1,31 @@
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.23), rgba(0,0,0,0.30)), url("../../images/banner-pic.jpg");
+    background-size: cover;
+    padding: 160px 0;
+    color: white;
+    background-position: center;
+}
+
+.banner h1 {
+    text-shadow: 2px 1px 10px rgb(0 0 0 / 40%);
+    width: 750px;
+}
+
+.banner p {
+    font-size: 20px;
+    opacity: 0.7;
+    color: white;
+}
+
+.banner a {
+    background: #ee2222;
+    padding: 16px 36px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+}
+
+.banner a:hover {
+    background: #ee1919;
+}
